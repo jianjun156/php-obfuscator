@@ -6,7 +6,7 @@ This is an "obfuscator" for PSR/OOp PHP code. Different from other obfuscators, 
 
 This library was written out of the need to obfuscate the source for a private library which for various reasons could not be shared without steps to protect the source from prying eyes. It is not technically feasible to "encrypt" PHP source code, while retaining the option to run it on a standard PHP runtime. Tools such as [Zend Guard](http://www.zend.com/products/guard) use run-time plugins, but even these offer no real security.
 
-While this tool does not make PHP code impossible to read, it will make it significantly less legible.
+While this tool doe s not make PHP code impossible to read, it will make it significantly less legible.
 
 It is compatible with PHP 5.3, 5.4 and 5.5, but needs PHP 5.4+ to run.
 
